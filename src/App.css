@@ -1,38 +1,154 @@
-.App {
-  text-align: center;
+body {
+  background-color: rgb(242, 194, 226);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  background-color: rgb(242, 194, 226);
 }
+.Link {
+  padding: 10px 40px;
+  text-decoration: none;
+  color: #4f2430;
+  text-transform: uppercase;
+  font-family: 'Merriweather', serif;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
   }
+  .product-card {
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 16%;
+margin-top: 25px;
+  }
+  .product-info {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    color: #652b3b;
+  }
+  .aaa{
+    display: flex;
+    align-items: center;
+  }
+  .logoCart {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(242, 194, 226);
+    border: none;
+   
+  }
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btn {
+  font-size: 20px;
+  background-color: #FFE3E1;
+  color: #4f2430;
+  padding: 10px;
+  border: none;
+  text-transform: uppercase;
+  margin: 5px;
+  font-family: 'Merriweather', serif;
+  text-shadow: 1px 2px 1px #ef51d2;
+}
+.btnShowMore {
+  background-color: rgb(242, 194, 226);
+  font-size: 20px;
+  color: #4f2430;
+  padding: 10px;
+  border: none;
+  text-transform: uppercase;
+  margin: 5px;
+  font-family: 'Merriweather', serif;
+  text-shadow: 1px 2px 1px #ef51d2;
+}
+button {
+  margin: 10px;
+  width: 150px;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.iconChild {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 10px;
+}
+.textIcon {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  color: #4f2430;
+}
+.advantages {
+  margin-top: 10px;
+margin-left: 5%;
+}
+.about {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 30px;
+  font-family: 'Merriweather', serif;
 }
-
-.App-link {
-  color: #61dafb;
+.about2 {
+  display: flex;
+  justify-content: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ourBouquets {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.about3 {
+  display: flex;
+flex-direction: column;
+}
+p {
+  margin: 15px;
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
+}
+h2 {
+  color: #4f2430;
+  font-size: 30px;
+  font-family: 'Merriweather', serif;
+  text-shadow: 1px 2px 1px #ef51d2;
+}
+.down {
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+}
+.down1 {
+  margin-top: 30px;
+}
+.insta {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+}
+.footer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.footerChild {
+  margin: 15px;
+  font-family: 'Merriweather', serif;
+}
+.downsite {
+  font-family: 'Merriweather', serif;
+  font-size: 10px;
+  margin-top: 10px;
+  text-align: center;
 }
