@@ -13,7 +13,7 @@ function OurProdact (){
     }
 
     return (
-        <div>
+        <div id="bouquet_section">
 <div>
         <div className='ourBouquets'>
         <h2>Our bouquets and gifts</h2>

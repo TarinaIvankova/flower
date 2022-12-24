@@ -5,7 +5,7 @@ import ShowMore from './ShowMore';
 function About () {
 
     return (
-        <div className='about3'>
+        <div className='about3' id="about_section">
         <div className='about2'>
           <h2>ABOUT US</h2>
           </div>

@@ -1,12 +1,12 @@
 import './App.css';
-import one from './one.png';
-import textnew from './textnew.png';
+
 import Footer from './Footer';
 import AdvantagesIcons from './AdvantagesIcons';
 import About from './About';
 import OurProdact from './Bouquet';
 import FollowUs from './Contact';
 import Menu from './Menu';
+import Up from './Up';
 
 
 function App() {
@@ -15,8 +15,7 @@ function App() {
     
     <div>
       <Menu/>
-      <img src={textnew} width="100%" alt="fon"/>
-      <img src={one} width="100%" alt="fon"/>
+      <Up/>
       <AdvantagesIcons/>
       <OurProdact/>
       <About/>

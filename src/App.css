@@ -3,17 +3,24 @@ body {
 }
 nav {
   display: flex;
-  justify-content: center;
-  padding: 15px;
-  background-color: rgb(242, 194, 226);
+  justify-content: flex-end;
+  padding: 10px;
+  position: fixed;
+  margin-top: 0;
+  width: 100%;
+  padding: 3px;
+}
+.up {
+  margin-top: 50px;
 }
 .Link {
-  padding: 10px 40px;
+  padding: 5px 40px;
   text-decoration: none;
   color: #4f2430;
-  text-transform: uppercase;
   font-family: 'Merriweather', serif;
-
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 1px 2px 1px #ef51d2;
 }
 .products {
   display: flex;
