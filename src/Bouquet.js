@@ -16,7 +16,7 @@ function OurProdact (){
         <div id="bouquet_section">
 <div>
         <div className='ourBouquets'>
-        <h2>Our bouquets and gifts</h2>
+        <h2 className='formobil'>Our bouquets and gifts</h2>
         </div>
       <Button chosenBuket={Bouquet} data={data} setBuket={setBuket} />
       </div>

@@ -5,7 +5,7 @@ function Footer () {
     return (
 <div className="footer">
 <div className="footerChild">
-    <p>Delivety & Pick Up</p>
+    <p>Delivery & Pick Up</p>
     <p>FAQ</p>
     <p>Privacy Policy</p>
     <p>Corporate gifts</p>
@@ -19,7 +19,7 @@ function Footer () {
     <p>fictitious Avenue, 2124</p>
 </div>
 <div className="footerChild">
-<img className='down1' src={Pay} width="100px" alt="fondown"/>
+<img className='down2' src={Pay} width="100px" alt="fondown"/>
 </div>
 </div>
     )

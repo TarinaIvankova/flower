@@ -52,7 +52,7 @@ export const data = [
     },
     {
         id: 5,
-        name1: 'Melissa',
+        name1: 'Tarina',
         photo: flower5,
         name: 'Vip bouquet',
         description: 'Букет ВИП класса для значимых событий.',

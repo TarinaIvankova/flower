@@ -10,7 +10,7 @@ function About () {
           <h2>ABOUT US</h2>
           </div>
           <div className='about'>
-       <img src={BG1} width="250px" alt="fonabout"/>
+       <img className="never" src={BG1} width="250px" alt="fonabout"/>
        <ShowMore/>
     
        <img src={BG2} width="250px" alt="fonabout2"/>

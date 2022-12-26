@@ -5,7 +5,7 @@ function Buket ({itemsForSale}){
             const{id, photo, name1, price, cart}=element;
             return (
             <div className="product-card" key={id}>
-                <img src={photo} width="300px" height="300px" alt="bukets"/>
+                <img className="photoFlower" src={photo} width="300px" height="300px" alt="bukets"/>
             <div className="product-info">
                 <h3>{name1} </h3>
                 <h3>  $ {price}</h3>
