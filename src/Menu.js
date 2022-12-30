@@ -1,22 +1,18 @@
 import React from "react";
-import {
-    BrowserRouter as Router,
-} from "react-router-dom";
-
-import { HashLink as Link} from 'react-router-hash-link';
-
+import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 function Menu (){
 
-    return <Router>
+    return (
         <nav> 
-            <Link smooth to="/#home_section" className="Link">Home</Link>
-            <Link smooth to="/#bouquet_section" className="Link">Bouquet</Link>
-            <Link smooth to="/#about_section" className="Link">About</Link>
-            <Link smooth to="/#contact_section" className="Link">Contact</Link>
+            <HashLink smooth to="/#home_section" className="Link">Home</HashLink>
+            <HashLink smooth to="/#bouquet_section" className="Link">Bouquet</HashLink>
+            <HashLink smooth to="/#about_section" className="Link">About</HashLink>
+            <HashLink smooth to="/#contact_section" className="Link">Contact</HashLink>
+            <Link to="/cart" className="Link">CART</Link>
         </nav>
-    
-    </Router>
-}
+    );
+};
 
 export default Menu;

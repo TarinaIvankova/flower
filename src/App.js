@@ -1,5 +1,8 @@
 import './App.css';
-
+import {
+Routes,
+Route
+} from "react-router-dom";
 import Footer from './Footer';
 import AdvantagesIcons from './AdvantagesIcons';
 import About from './About';
@@ -7,17 +10,23 @@ import OurProdact from './Bouquet';
 import FollowUs from './Contact';
 import Menu from './Menu';
 import Up from './Up';
+import Cart from './Cart';
+
 
 
 function App() {
 
   return (
-    
     <div>
       <Menu/>
+      <Routes>
+        <Route path='/' element={<Up />}/>
+        <Route path='/cart' element={<Cart />} />
+      </Routes>
+    
       <Up/>
       <AdvantagesIcons/>
-      <OurProdact/>
+      <OurProdact />
       <About/>
       <FollowUs/>
       <Footer/>
