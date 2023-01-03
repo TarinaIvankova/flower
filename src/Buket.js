@@ -1,4 +1,4 @@
-function Buket ({itemsForSale}){
+function Buket ({itemsForSale, addToCart }){
     return (
     <div className="products">
         {itemsForSale.map((element=>{
@@ -10,7 +10,7 @@ function Buket ({itemsForSale}){
                 <h3>{name1} </h3>
                 <h3>  $ {price}</h3>
                 <div className="aaa">
-                <button className="logoCart"><img src={cart} width="30px" alt="logoCart"></img></button>
+                <button className="logoCart" onClick={() => addToCart(id)}><img src={cart} width="30px" alt="logoCart"></img></button>
                 </div>
             </div>
             </div>

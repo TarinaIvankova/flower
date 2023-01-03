@@ -171,6 +171,17 @@ h2 {
   margin-top: 10px;
   text-align: center;
 }
+/* КОРЗИНА */
+ h1{
+  color: #4f2430;
+  font-size: 30px;
+  font-family: 'Merriweather', serif;
+  text-shadow: 1px 2px 1px #ef51d2;
+  margin-top: 40px;
+}
+
+
+
 @media all and (max-width:1024px) {
 .photoFlower {
   width: 270px;
