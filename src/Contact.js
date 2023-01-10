@@ -1,4 +1,4 @@
-import Down from "./Down.png";
+import Down from "./images/Down.png";
 
 function FollowUs (){
 

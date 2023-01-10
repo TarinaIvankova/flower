@@ -50,11 +50,88 @@ nav {
     font-family: 'Great Vibes', cursive;
     font-size: 30px;
     color: #652b3b;
+    width: 300px;
   }
   .aaa{
     display: flex;
     align-items: center;
+    position: relative;
   }
+  .product-elements {
+    position: absolute;
+    top: 100px;
+    left: -55px;
+    z-index: 1;
+    width: 90px;
+    display: flex;
+  }
+  .product-number {
+    font-size: 20px;
+    width: 38px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-left: 5px;
+  }
+  .product-plus {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 40px;
+    cursor: pointer;
+  top: 10px;
+  right: -5px;
+  }
+  .product-minus {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    top: 10px;
+  }
+  .product-mark {
+    position: absolute;
+    z-index: 1;
+    background-color: #333333;
+
+  }
+  .product-mark--vertical {
+    top: 4px;
+    left: 8px;
+    width: 2px;
+    height: 12px;
+
+  }
+  .product-mark--horizontal {
+    top: 8px;
+    left: 3px;
+    width: 12px;
+    height: 2px;
+  }
+.all-cost{
+  color: #4f2430;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+  text-shadow: 1px 2px 1px #ef51d2;
+}
+.deleteButton{
+  font-weight: bold;
+  cursor: pointer;
+}
+.cartIsNull{
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  color: #4f2430;
+  text-shadow: 1px 2px 1px #ef51d2;
+  margin-left: 35%;
+  margin-top: 150px;
+}
+
+
   .logoCart {
     width: 40px;
     height: 40px;
@@ -215,7 +292,7 @@ h2 {
     justify-content: center;
   }
   .Link {
-    padding: 5px 15px;
+    padding: 5px 12px;
     font-size: 15px;
   }
   .icons {
@@ -243,6 +320,9 @@ h2 {
   .footerChild, .down2 {
     margin-left: 20%;
   }
+  .all-cost{
+    font-size: 25px;
+  }
 }
 @media all and (max-width:320px) {
   .Link {
@@ -252,5 +332,16 @@ h2 {
   .photoFlower {
     width: 280px;
     height: 280px;
+  }
+  .product-elements {
+    left: -75px;
+    width: 90px;
+  }
+  .Link {
+    padding: 3px 9px;
+    font-size: 13px;
+  }
+  .all-cost{
+    font-size: 25px;
   }
 }

@@ -1,7 +1,7 @@
-import Icon1 from "./icon1.png";
-import Icon2 from "./icon2.png";
-import Icon3 from "./icon3.png";
-import Icon4 from "./icon4.png";
+import Icon1 from "./images/icon1.png";
+import Icon2 from "./images/icon2.png";
+import Icon3 from "./images/icon3.png";
+import Icon4 from "./images/icon4.png";
 
 function AdvantagesIcons () {
 

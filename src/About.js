@@ -1,5 +1,5 @@
-import BG1 from "./BG1.png";
-import BG2 from "./BG2.png";
+import BG1 from "./images/BG1.png";
+import BG2 from "./images/BG2.png";
 import ShowMore from './ShowMore';
 
 function About () {

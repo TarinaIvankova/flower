@@ -1,4 +1,4 @@
-import Pay from "./Payments.png";
+import Pay from "./images/Payments.png";
 
 function Footer () {
 

@@ -1,5 +1,5 @@
-import one from './one.png';
-import textnew from './textnew.png';
+import one from './images/one.png';
+import textnew from './images/textnew.png';
 
 
 function Up (){

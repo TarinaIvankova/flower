@@ -1,16 +1,16 @@
-import flower1 from './flower1.png';
-import flower2 from './flower2.png';
-import flower3 from './flower3.png';
-import flower4 from './flower4.png';
-import flower5 from './flower5.png';
-import flower6 from './flower6.png';
-import flower7 from './flower7.png';
-import flower8 from './flower8.png';
-import flower9 from './flower9.png';
-import flower10 from './flower10.png';
-import flower11 from './flower11.png';
-import flower12 from './flower12.png';
-import bag from './bag.png';
+import flower1 from './images/flower1.png';
+import flower2 from './images/flower2.png';
+import flower3 from './images/flower3.png';
+import flower4 from './images/flower4.png';
+import flower5 from './images/flower5.png';
+import flower6 from './images/flower6.png';
+import flower7 from './images/flower7.png';
+import flower8 from './images/flower8.png';
+import flower9 from './images/flower9.png';
+import flower10 from './images/flower10.png';
+import flower11 from './images/flower11.png';
+import flower12 from './images/flower12.png';
+import bag from './images/bag.png';
 
 
 export const data = [
@@ -24,28 +24,31 @@ export const data = [
         price: 300,
         totalPrice: 300,
         cart: bag,
+        number: 0,
     },
     {
         id: 2,
         count:1,
-        name1: 'Melissa',
+        name1: 'Mell',
         photo: flower2,
         name: 'Vip bouquet',
         description: 'Букет ВИП класса для значимых событий.',
-        price: 250,
-        totalPrice: 250,
+        price: 245,
+        totalPrice: 245,
         cart: bag,
+        number: 0,
     },
     {
         id: 3,
         count:1,
-        name1: 'Katerina',
+        name1: 'Kate',
         photo: flower3,
         name: 'Vip bouquet',
         description: 'Букет ВИП класса для значимых событий.',
         price: 450,
         totalPrice: 450,
         cart: bag,
+        number: 0,
     },
     {
         id: 4,
@@ -57,6 +60,7 @@ export const data = [
         price: 280,
         totalPrice: 280,
         cart: bag,
+        number: 0,
     },
     {
         id: 5,
@@ -68,6 +72,7 @@ export const data = [
         price: 550,
         totalPrice: 550,
         cart: bag,
+        number: 0,
     },
     {
         id: 6,
@@ -79,6 +84,7 @@ export const data = [
         price: 650,
         totalPrice: 650,
         cart: bag,
+        number: 0,
     },
     {
         id: 7,
@@ -90,6 +96,7 @@ export const data = [
         price: 750,
         totalPrice: 750,
         cart: bag,
+        number: 0,
     },
     {
         id: 8,
@@ -101,6 +108,7 @@ export const data = [
         price: 290,
         totalPrice: 290,
         cart: bag,
+        number: 0,
     },
     {
         id: 9,
@@ -112,6 +120,7 @@ export const data = [
         price: 465,
         totalPrice: 465,
         cart: bag,
+        number: 0,
     },
     {
         id: 10,
@@ -123,6 +132,7 @@ export const data = [
         price: 256,
         totalPrice: 256,
         cart: bag,
+        number: 0,
     },
     {
         id: 11,
@@ -134,6 +144,7 @@ export const data = [
         price: 285,
         totalPrice: 285,
         cart: bag,
+        number: 0,
     },
     {
         id: 12,
@@ -145,6 +156,7 @@ export const data = [
         price: 310,
         totalPrice: 310,
         cart: bag,
+        number: 0,
     }
   
 ]
