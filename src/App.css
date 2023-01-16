@@ -286,6 +286,47 @@ h2 {
   }
 
 }
+@media all and (max-width:500px) {
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  .Link {
+    padding: 5px 12px;
+    font-size: 15px;
+  }
+  .icons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .product-card {
+   margin-left: 30px;
+    }
+  .textIcon {
+    font-size: 10px;
+  }
+
+  .formobil {
+    font-size: 25px;
+  }
+  .h2infuter{
+    text-align: center;
+    font-size: 25px;
+  }
+  .footer {
+    display: flex;
+   flex-direction: column;
+  }
+  p {
+    font-size: 15px;
+  }
+  .footerChild, .down2 {
+    margin-left: 20%;
+  }
+  .all-cost{
+    font-size: 25px;
+  }
+}
 @media all and (max-width:377px) {
   nav {
     display: flex;
@@ -323,6 +364,9 @@ h2 {
   .all-cost{
     font-size: 25px;
   }
+  .product-card {
+    margin-left: 20px;
+     }
 }
 @media all and (max-width:320px) {
   .Link {
